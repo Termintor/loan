@@ -59,7 +59,7 @@
 
         if (isFinite(monthly)) {
           payment.innerHTML = monthly.toFixed(2);
-          total.innerHTML = (monthly * payment).toFixed(2);
+          total.innerHTML = (monthly * payments).toFixed(2);
           totalinterest.innerHTML = ((monthly * payments) - principal).toFixed(2);
           
           //将用户的输入数据保存下来
